@@ -30,11 +30,6 @@ public class ArrayList<T> implements List<T> {
     }
 
     @Override
-    public boolean equals(Collection c) {
-        return false;
-    }
-
-    @Override
     public T get(int index) {
         if (index < 0 || index >= size) { throw new IndexOutOfBoundsException(); }
         else return array[index];

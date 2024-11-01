@@ -14,11 +14,6 @@ public class LinkedList<T> implements List<T> {
     }
 
     @Override
-    public boolean equals(Collection c) {
-        return false;
-    }
-
-    @Override
     public T get(int index) {
         return null;
     }
