@@ -1,9 +1,5 @@
 package Data.List;
 
-import Data.Collection;
-
-import java.lang.reflect.Array;
-
 public class ArrayList<T> implements List<T> {
 
     T[] array;
@@ -47,6 +43,11 @@ public class ArrayList<T> implements List<T> {
     public void add(T element) {
         reallocate();
         array[size++] = element;
+    }
+
+    @Override
+    public void add(int index, T element) {
+
     }
 
     @Override
