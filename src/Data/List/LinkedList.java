@@ -2,7 +2,7 @@ package Data.List;
 
 public class LinkedList<T> implements List<T> {
     @Override
-    public int getSize() {
+    public int size() {
         return 0;
     }
 
